@@ -1,0 +1,11 @@
+{
+  "name": "skyview-weather",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --filter @skyview-weather/web dev",
+    "build": "pnpm --filter @skyview-weather/web build",
+    "preview": "pnpm --filter @skyview-weather/web preview",
+    "typecheck": "pnpm --filter @skyview-weather/web exec tsc -b",
+    "test": "pnpm --filter @skyview-weather/web test"
+  }
+}
