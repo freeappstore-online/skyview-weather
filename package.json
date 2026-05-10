@@ -1,6 +1,7 @@
 {
   "name": "skyview-weather",
   "private": true,
+  "packageManager": "pnpm@10.30.3",
   "scripts": {
     "dev": "pnpm --filter @skyview-weather/web dev",
     "build": "pnpm --filter @skyview-weather/web build",
